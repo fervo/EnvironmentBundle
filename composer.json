@@ -1,0 +1,22 @@
+{
+    "name": "fervo/environment-bundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Magnus Nordlander",
+            "email": "magnus@fervo.se"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Fervo\\EnvironmentBundle\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.4",
+        "symfony/http-kernel": "~2.4",
+        "symfony/dependency-injection": "~2.4",
+        "symfony/expression-language": "~2.4"
+    }
+}
