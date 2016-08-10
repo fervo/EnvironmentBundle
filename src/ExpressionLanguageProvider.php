@@ -42,7 +42,7 @@ class ExpressionLanguageProvider implements ExpressionFunctionProviderInterface
         }
 
         if (2 > func_num_args()) {
-            throw new \RuntimeException("Environment variable $name not found.");
+            throw new \InvalidArgumentException("Environment variable $name not found.");
         }
 
         return $default;
